@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-navy-950: #070d1e;
+  --color-navy-900: #0c182a;
+  --color-navy-800: #14223d;
+  --color-teal-primary: #14746f;
+  --color-teal-dark: #0f5955;
+  --color-teal-soft: #2a9d8f;
+  --color-ivory: #faf9f6;
+  --color-sand: #f5f4f0;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #faf9f6;
+    color: #111827;
+  }
+  
+  h1, h2, h3, .font-serif-heading {
+    font-family: var(--font-serif);
+    letter-spacing: -0.015em;
+  }
+}
+
+/* Subtle glassmorphism */
+.glass-nav {
+  background: rgba(250, 249, 246, 0.82);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.glass-card-dark {
+  background: rgba(12, 24, 42, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.glass-card-light {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}

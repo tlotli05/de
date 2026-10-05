@@ -1,0 +1,6 @@
+{
+  "name": "Aurelia Medical Suite",
+  "description": "Modern private healthcare practice website in Claremont, Cape Town. Exceptional healthcare, thoughtfully delivered.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
